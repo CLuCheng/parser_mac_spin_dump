@@ -8,9 +8,11 @@ using atos to parse mac spindump symbol
 
 * test:
 1. indicate the spindump file path and dsym file path
-** python main.py path/spindump.txt libxxx.dSYM/Contents/Resources/DWARF/libxxx.dylib
+
+   python main.py path/spindump.txt libxxx.dSYM/Contents/Resources/DWARF/libxxx.dylib
 
 3. indicate the spindump file path and dsym file directory
-** python main.py path/spindump.txt dsym file directory
+
+   python main.py path/spindump.txt dsym file directory
 
 this file need run in mac os
